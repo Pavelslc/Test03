@@ -1,0 +1,350 @@
+    1  [200~sudo apt install curl
+    2  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+    3  sudo apt install curl
+    4  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+    5  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+    6  sudo apt update
+    7  sudo apt install brave-browser
+    8  Su -
+    9  su -
+   10  sudo apt install curl
+   11  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+   12  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+   13  sudo apt update
+   14  sudo apt install brave-browser
+   15  sudo apt install vlc
+   16  sudo apt-get install wget gpg
+   17  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+   18  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+   19  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   20  rm -f packages.microsoft.gpg
+   21  sudo apt install apt-transport-https
+   22  sudo apt update
+   23  sudo apt install code # or code-insiders
+   24  RHEL, Fedora, and CentOS based di
+   25  sudo apt update && sudo apt upgrade
+   26  sudo apt install spotify
+   27  sudo apt install hardinfo
+   28  hardinfo &
+   29  ls
+   30  clear
+   31  ls
+   32  sudo apt install pulseeffects 
+   33  mosepad &
+   34  mousepad &
+   35  text editor &
+   36  ls /opt/
+   37  ls /
+   38  ls /etc/
+   39  apropos 'text editor'
+   40  xed &
+   41  apropos 'image editor'
+   42  apropos 'visual studio code'
+   43  find 'visual studio code'
+   44  sudo ufw status verbose 
+   45  sudo apt install uGet
+   46  man apt
+   47  sudo apt search uGet
+   48  sudo apt install uget
+   49  uget &
+   50  sudo apt update
+   51  sudo apt-get install aria2
+   52  brightnessctl --device='tpacpi::kbd_backlight' info
+   53  sudo apt install brightnessctl
+   54  brightnessctl --device='tpacpi::kbd_backlight' info
+   55  sudo apt remove brightnessctl
+   56  sudo apt remove uget
+   57  apt search spotify
+   58  sudo apt install spotify-client
+   59  spotify &
+   60  sudo apt remove aria2
+   61  sudo apt remove uget
+   62  man shutdown
+   63  shutdown +5
+   64  ./VentoyGUI.x86_64
+   65  ls /dev/sd*
+   66  cd ..
+   67  ls
+   68  sudo dd if=ReactOS-0.4.14-release-97-g1dbf277.iso of=/dev/sda bs=1024k status=progress
+   69  ventoy-1.0.96/
+   70  cd ventoy-1.0.96/
+   71  ./VentoyGUI.x86_64
+   72  ipconfig
+   73  ipa
+   74  ip -a
+   75  ipf
+   76  apt search rufus
+   77  apt search ventoy
+   78  apt search Ventoy
+   79  dh
+   80  df
+   81  df -h
+   82  lsblk
+   83  sudo dd if=name-of-image.iso of=/media/pavel/USB\ STICK/ bs=1024k status=progress
+   84  ls
+   85  cd Downloads/
+   86  ls
+   87  sudo dd if=ReactOS-0.4.14-release-97-g1dbf277-live.zip of=/media/pavel/USB\ STICK/ bs=1024k status=progress
+   88  apt search Tribler
+   89  apt search Whatsapp
+   90  apt search Tldr
+   91  pinball &
+   92  apropos pinball
+   93  pinball
+   94  Pinball
+   95  find pinball
+   96  find Pinball
+   97  ls /
+   98  ls /opt/
+   99  find space
+  100  locate space
+  101  locate pinball
+  102  ~/.local/share/applications/Postman.desktop
+  103  nano ~/.local/share/applications/Postman.desktop
+  104  df
+  105  df -h
+  106  df -ht
+  107  df -hT
+  108  pwd
+  109  ls /home
+  110  man ls
+  111  ls
+  112  ls /home
+  113  ls /home/pavel/Documents/
+  114  ls ~/Documents/
+  115  cd /home/
+  116  ls ~/Documents/
+  117  cd
+  118  pwd
+  119  ls
+  120  cd Music
+  121  cd ..
+  122  cd Documents/
+  123  ls
+  124  nano Bug\ report\ pavel.xlsx 
+  125  ls /
+  126  apropos 'user group'
+  127  man apropos
+  128  apropos user, group
+  129  apropos 'add user group'
+  130  apropos 'add user gro
+  131  logout
+  132  exit
+  133  apt search virtualbox
+  134  sudo apt intall Virtualbox
+  135  sudo apt install Virtualbox
+  136  sudo apt install virtualbox
+  137  apt search vlc
+  138  man man
+  139  man apt
+  140  info man
+  141  df 
+  142  https://nx.zvdata.eu/index.php/s/mFGwdfbA5jPEpYH
+  143  whoami
+  144  who
+  145  w
+  146  shell
+  147  apropos shell
+  148  sh
+  149  logout
+  150  singout
+  151  apropos signout
+  152  exit
+  153  gistory
+  154  history
+  155  groups pavel
+  156  groups
+  157  apropos user
+  158  userdel -h
+  159  ps
+  160  [200~ps -aux | grep
+  161  ps -aux | grep pavel
+  162  apropos 'create directory'
+  163  apropos 'create dir'
+  164  apropos dir
+  165  mkdir -h
+  166  mkdir --help
+  167  pwd
+  168  mkdir lulu
+  169  ls
+  170  mkdir ~/Dowloads/nana
+  171  mkdir ~/Downloads/nana
+  172  ls
+  173  rmdir nana/
+  174  cd
+  175  ls
+  176  rmdir lulu
+  177  ls
+  178  cd Dowloads
+  179  pwd
+  180  cd ..
+  181  ls
+  182  cd etc/
+  183  ls
+  184  cat miau
+  185  cd
+  186  nano katinas
+  187  cd
+  188  ls
+  189  apropos 'text editor'
+  190  touch  f[1..4].txt
+  191  ls
+  192  touch  f{1..4}.txt
+  193  ls
+  194  rm f{1..4}.txt
+  195  ls
+  196  rm f\[1..4\].txt 
+  197  ls
+  198  apropos copy
+  199  cp -h
+  200  cp --help
+  201  tldr
+  202  man cp
+  203  ls
+  204  cd Music/
+  205  ls
+  206  touch  f{1..4}.txt
+  207  mkdir Miau
+  208  cp f{1..4}.txt ./Miau
+  209  ls
+  210  ls Miau
+  211  rm -dr Miau
+  212  ls
+  213  rm f\[1..4\].txt 
+  214  ls
+  215  rm f{1..4}.txt
+  216  ls
+  217  cd
+  218  apropos rename
+  219  mv -h
+  220  mv --help
+  221  mkdir Test
+  222  cd Test
+  223  touch f{1..4}.txt 
+  224  ls
+  225  mv f{1..4}.txt file{1..4}.txt
+  226  mv f{1..4}.txt ./file{1..4}.txt
+  227  mv f1.txt file1.txt
+  228  ls
+  229  cd
+  230  ld /
+  231  ls /
+  232  man cat
+  233  apropos 'readfile
+  234  apropos 'readfile'
+  235  apropos
+  236  apropos count
+  237  man cl
+  238  aporpos lines
+  239  man wc
+  240  ls
+  241  cd Music/
+  242  cp /etc/passwd .
+  243  ls
+  244  man head
+  245  head -n 5 passwd 
+  246  tail -n 5 passwd 
+  247  apropos link
+  248  man ln
+  249  apt install tldr
+  250  tldr ln
+  251  tldr mv
+  252  tldr useradd
+  253  tldr
+  254  tldr -h
+  255  tldr man
+  256  tldr user
+  257  tldr make
+  258  tldr cd
+  259  apt serch tldr
+  260  apt search tldr
+  261  ls
+  262  xd
+  263  find passwd
+  264  cd
+  265  find passwd
+  266  locate passwd
+  267  find passwd
+  268  man find
+  269  find -name passwd
+  270  clear
+  271  apt search chrome
+  272  git init
+  273  gitbash
+  274  gitBash
+  275  git config user.name
+  276  apt install gitbash
+  277  apt search git bash
+  278  git config user.email salc.pavel1@gmail.com
+  279  git config --list
+  280  git config user.name Pavelslc
+  281  git config --list
+  282  touch text.txt
+  283  git add .
+  284  git commit -m "try to push from local to upstream"
+  285  git log
+  286  git remote add origin https://github.com/Pavelslc/Test03.git
+  287  sudo apt-get install git-all
+  288  remote -v
+  289  git remote -v
+  290  apropos 'git bash'
+  291  git push -u origin main
+  292  git branch -M main
+  293  git push -u origin main
+  294  git branch -M main
+  295  git push -u origin main
+  296  export PS1="\\w:\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)\$ "
+  297  git push -u origin main
+  298  [200~FMT_BOLD="\e[1m"
+  299  FMT_RESET="\e[0m"
+  300  FMT_UNBOLD="\e[21m"
+  301  FG_BLACK="\e[30m"
+  302  FG_BLUE="\e[34m"
+  303  FG_CYAN="\e[36m"
+  304  FG_GREEN="\e[32m"
+  305  FG_MAGENTA="\e[35m"
+  306  FG_RED="\e[31m"
+  307  FG_WHITE="\e[97m"
+  308  BG_BLUE="\e[44m"
+  309  BG_GREEN="\e[42m"
+  310  BG_MAGENTA="\e[45m"
+  311  export GIT_PS1_SHOWDIRTYSTATE=1
+  312  export GIT_PS1_SHOWCOLORHINTS=1
+  313  export PS1="\n\[${BG_GREEN}\] \[${FG_RED}\] \[${FG_BLACK}\]\u \[${FG_GREEN}${BG_BLUE}\] ""\[${FG_BLACK}\]\w \[${FMT_RESET}${FG_BLUE}\]"'$(__git_ps1 "\[${BG_MAGENTA}\] \[${FG_WHITE}\] %s \[${FMT_RESET}${FG_MAGENTA}\]")'\
+  314  FMT_BOLD="\e[1m"
+  315  FMT_RESET="\e[0m"
+  316  FMT_UNBOLD="\e[21m"
+  317  FG_BLACK="\e[30m"
+  318  FG_BLUE="\e[34m"
+  319  FG_CYAN="\e[36m"
+  320  FG_GREEN="\e[32m"
+  321  FG_MAGENTA="\e[35m"
+  322  FG_RED="\e[31m"
+  323  FG_WHITE="\e[97m"
+  324  BG_BLUE="\e[44m"
+  325  BG_GREEN="\e[42m"
+  326  BG_MAGENTA="\e[45m"
+  327  export GIT_PS1_SHOWDIRTYSTATE=1
+  328  export GIT_PS1_SHOWCOLORHINTS=1
+  329  export PS1="\n\[${BG_GREEN}\] \[${FG_RED}\] \[${FG_BLACK}\]\u \[${FG_GREEN}${BG_BLUE}\] ""\[${FG_BLACK}\]\w \[${FMT_RESET}${FG_BLUE}\]"'$(__git_ps1 "\[${BG_MAGENTA}\] \[${FG_WHITE}\] %s \[${FMT_RESET}${FG_MAGENTA}\]")'"\n \[${FG_GREEN}\]╰ \[${FG_CYAN}\]\$ \[${FMT_RESET}\]"
+  330  git log
+  331  git branch -M main
+  332  git push -u origin main
+  333  ls -al ~/.ssh
+  334  eval "$(ssh-agent -s)"
+  335  ssh-add ~/.ssh/id_ed25519
+  336  ssh-add ~/ssh/id_ed25519
+  337  ssh-keygen -t ed25519 -C "salc.pavel1@gmail.com"
+  338  eval "$(ssh-agent -s)"
+  339  ssh-add ~/.ssh/id_ed25519
+  340  cat ~/.ssh/id_ed25519.pub
+  341  nano ~/.ssh/id_ed25519.pub
+  342  git branch -M main
+  343  git push -u origin main
+  344  git branch -M main
+  345  git push -u origin main
+  346  ssh -T git@github.com
+  347  git remote set-url origin git@github.com:Pavelslc/Test03.git
+  348  git branch -M main
+  349  git push -u origin main
+  350  history > histToday.txt && git add . && git commit -m "prisidekit ka siandien gero nuveiket" && git push -u origin main
