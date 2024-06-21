@@ -3,21 +3,23 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class RegistrationTest extends BaseTest{
+public class RegistrationTest extends BaseTest {
     HomePage homePage;
     RegistrationPage registrationPage;
 
     @BeforeEach
-    void registrationTestSetup(){
+    void registrationTestSetup() {
         homePage = new HomePage(driver);
         registrationPage = new RegistrationPage(driver);
     }
+
     @Test
     void registrationTest() {
-        String firstName = "TestII";
-        String lastName = "TestII";
-        String email = "testII@test.com";
-        String password = "RandomNumber123";
+        String randomName = RandomNameGenerator.generateRandomName();
+        String firstName = randomName;
+        String lastName = randomName;
+        String email = randomName + "@test.com";
+        String password = RandomPasswordGenerator.generateRandomPassword();
         String date = "01/01/1990";
         homePage.clickLinkRegister();
         assertEquals("Registration", driver.getTitle(), "page title does not match");
@@ -31,10 +33,13 @@ public class RegistrationTest extends BaseTest{
                 .clickCheckboxTermsConditions()
                 .clickCheckboxCustomerPrivacy()
                 .clickButtonSave();
-        String expectedUserAccountNameLastname = firstName+" "+lastName;
+        String expectedUserAccountNameLastname = firstName + " " + lastName;
         String resultUserAccountNameLastname = homePage.getUserAccountNameLastname();
-        assertEquals(expectedUserAccountNameLastname,resultUserAccountNameLastname,"User account name and lastname didn't match");
+        assertEquals(expectedUserAccountNameLastname, resultUserAccountNameLastname, "User account name and lastname didn't match");
         homePage.clickLinkSignOut();
+        System.out.println("Random name: " + randomName);
+        System.out.println("Email: " + email);
+        System.out.println("Random password: " + password);
     }
 
 }
