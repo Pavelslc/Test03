@@ -1,6 +1,5 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.support.ui.Sleeper;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -17,7 +16,7 @@ public class LoginTest extends BaseTest{
 
     @Test
     void loginTest (){
-        homePage.clickLogin();
+        homePage.clickLinkLogin();
         assertEquals("Login", driver.getTitle(), "page title does not match");
         loginPage.sendInputEmail("test@test.com")
                 .sendInputPassword("123456")

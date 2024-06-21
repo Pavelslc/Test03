@@ -4,12 +4,16 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage{
     @FindBy (xpath = "//a[@title='Log in to your customer account']")
-        WebElement linkLogin;
-
+    private WebElement linkLogin;
+    @FindBy (css = "a[title='Create account']")
+    private WebElement linkRegister;
     public HomePage(WebDriver driver) {
         super(driver);
     }
-    public void clickLogin(){
+    public void clickLinkLogin(){
         actions.click(linkLogin).perform();
+    }
+    public void clickLinkRegister(){
+        actions.click(linkRegister).perform();
     }
 }
