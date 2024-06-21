@@ -9,17 +9,19 @@ public class LoginTest extends BaseTest{
     LoginPage loginPage;
 
     @BeforeEach
-    void LoginTestSetup() {
+    void loginTestSetup() {
         homePage = new HomePage(driver);
         loginPage = new LoginPage(driver);
     }
 
     @Test
     void loginTest (){
+        String email = "test@test.com";
+        String password = "RandomNumber123";
         homePage.clickLinkLogin();
         assertEquals("Login", driver.getTitle(), "page title does not match");
-        loginPage.sendInputEmail("test@test.com")
-                .sendInputPassword("123456")
+        loginPage.sendInputEmail(email)
+                .sendInputPassword(password)
                 .clickButtonSignIn();
 
     }
